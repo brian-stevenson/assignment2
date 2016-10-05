@@ -1,0 +1,25 @@
+h2{
+	text-align: center;
+	color:white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+form{
+  border: 10px solid #999;
+  width: auto
+  height: 300px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+input{
+	border: 5px solid #999;
+	background: black;
+	color: white;
+}
+
+body{
+	background: black;
+}

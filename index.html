@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <header>
+  <title>Assignment 2</title>
+  <script src="./JS/assign2.js"></script>
+  <meta charset="UTF-8">
+  <meta content="author: brian-stevenson">
+  <link rel="stylesheet" type="text/css" href="./CSS/assign2.css">
+  </header>
+  <body>
+  <h2>THE INFORMATION FORM</h2>
+    <form name="form" onsubmit="return checkComplete()" id="formId">
+      First Name:<br>
+      <input type="text" name="first"><br>
+      Last Name:<br>
+      <input type="text" name="last"><br>
+      Email Address:<br>
+      <input type="email" name="email"><br>
+      Cell Phone Number:<br>
+      <input type="text" name="cell"><br>
+      Select your gender:<br>
+      <input type="radio" name="gender" value="male" id="genderm"> Male<br>
+      <input type="radio" name="gender" value="female" id="genderf"> Female<br>
+      <input type="radio" name="gender" value="other" id="gendero"> Other<br>
+      <input type="submit" value="I'm done" onsubmit="return false"><br>
+    </form>
+  </body>
+</html>
